@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Individuals | The Library Company</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", sans-serif;
+        background-color: #fff;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 40px 20px;
+      }
+      .hero {
+        text-align: center;
+        padding: 80px 20px;
+      }
+      .hero h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 20px;
+      }
+      .hero p {
+        font-size: 1.25rem;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      .cta-buttons {
+        margin-top: 30px;
+      }
+      .cta-buttons a {
+        display: inline-block;
+        margin: 10px;
+        padding: 12px 24px;
+        border: 2px solid #000;
+        text-decoration: none;
+        font-weight: bold;
+        color: #000;
+      }
+      .programs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 60px;
+      }
+      .program-card {
+        flex: 1 1 calc(33% - 20px);
+        border: 1px solid #000;
+        padding: 20px;
+      }
+      .program-card h3 {
+        margin-top: 0;
+      }
+      .comparison {
+        margin-top: 80px;
+      }
+      .comparison table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      .comparison th,
+      .comparison td {
+        border: 1px solid #000;
+        padding: 12px;
+        text-align: left;
+      }
+      .outcomes {
+        margin-top: 60px;
+      }
+      .outcomes ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+      footer {
+        margin-top: 80px;
+        padding: 40px 20px;
+        border-top: 1px solid #000;
+        text-align: center;
+        font-size: 0.9rem;
+      }
+      @media (max-width: 768px) {
+        .programs {
+          flex-direction: column;
+        }
+        .program-card {
+          flex: 1 1 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="hero">
+        <h1>From Classroom to Career‑Ready — Mentorship by Real Engineers.</h1>
+        <p>
+          Stop chasing generic courses — join a program that teaches exactly
+          what companies expect. Get direct mentorship from engineers working at
+          FAANG and top firms. Build real skills, confidence, and interview
+          readiness — not just theory. This is your launchpad to a job, career,
+          or startup — with guidance every step of the way.
+        </p>
+        <div class="cta-buttons">
+          <a href="#programs">Explore Programs</a>
+          <a href="#contact">Talk to a Mentor</a>
+        </div>
+      </section>
+
+      <section class="programs" id="programs">
+        <div class="program-card">
+          <h3>Lattice Workshop</h3>
+          <p>
+            A 3–4 month mentorship path with FAANG mentors. Learn coding,
+            interviews, communication & leadership — built to make you
+            job-ready.
+          </p>
+          <a href="#">Know more →</a>
+        </div>
+        <div class="program-card">
+          <h3>ReLaunchHer</h3>
+          <p>
+            A program for women relaunching their careers in tech. 1:1
+            mentorship, career guidance, and confidence-building training.
+          </p>
+          <a href="#">Know more →</a>
+        </div>
+        <div class="program-card">
+          <h3>SQL Crash Course</h3>
+          <p>
+            Master SQL in days with hands-on practice, live problem-solving, and
+            real-world datasets.
+          </p>
+          <a href="#">Know more →</a>
+        </div>
+        <div class="program-card">
+          <h3>Power BI Crash Course</h3>
+          <p>
+            Learn to visualize data and build reports with Power BI — short,
+            practical, and beginner-friendly.
+          </p>
+          <a href="#">Know more →</a>
+        </div>
+        <div class="program-card">
+          <h3>Tableau Crash Course</h3>
+          <p>
+            Create beautiful dashboards and insights with Tableau — fast-track
+            your analytics skills.
+          </p>
+          <a href="#">Know more →</a>
+        </div>
+      </section>
+
+      <section class="comparison">
+        <h2>What Makes Us Different</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Our Programs</th>
+              <th>Typical Training Programs</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mentors’ background</td>
+              <td>FAANG & top industry engineers</td>
+              <td>Generic trainers</td>
+            </tr>
+            <tr>
+              <td>Teaching style</td>
+              <td>Live, 1:1, hands-on</td>
+              <td>Recorded or batch classes</td>
+            </tr>
+            <tr>
+              <td>Learning approach</td>
+              <td>360° skills — tech + behaviour</td>
+              <td>Only technical theory</td>
+            </tr>
+            <tr>
+              <td>Career readiness</td>
+              <td>Interview prep + resume + confidence</td>
+              <td>Minimal guidance</td>
+            </tr>
+            <tr>
+              <td>Entrepreneurship focus</td>
+              <td>Learn from startup builders</td>
+              <td>Rarely included</td>
+            </tr>
+            <tr>
+              <td>Transparency</td>
+              <td>No fake promises</td>
+              <td>Overpromised outcomes</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="outcomes">
+        <h2>What You'll Gain</h2>
+        <ul>
+          <li>Strong foundational and advanced tech skills</li>
+          <li>Full interview preparation and mock rounds</li>
+          <li>Communication and behavioural mastery</li>
+          <li>Confidence to lead, speak, build, and pitch</li>
+          <li>Guidance on careers, startups, and more</li>
+        </ul>
+      </section>
+
+      <footer>&copy; 2025 The Library Company. All rights reserved.</footer>
+    </div>
+  </body>
+</html>
